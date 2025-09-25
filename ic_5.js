@@ -37,16 +37,17 @@ function getCategoryDiscount(category) {
             return .0
             break;
     }
+}
 console.log(getCategoryDiscount("gear"))
 
 //task 2
 function priceAfterCategoryDiscount(product) {
     let rate = getCategoryDiscount(product.category);
-    return product.price * (1-rate);
+    return product.price * (1 - rate);
 
 
 }
-console.log(priceAfterCategoryDiscount(products[0]))}
+console.log(priceAfterCategoryDiscount(products[0]))
 
 // task 3
 
@@ -59,3 +60,4 @@ function findProductById(id) {
 }
 
 //task 4
+lineItemTotal(cartItem)
